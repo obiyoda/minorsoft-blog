@@ -1,10 +1,10 @@
 {
-  "title": "Home",
-  "titleTemplate": "| Bluise",
-  "welcomeText": "# Yo, I'm Bluise - A Nuxt.js & Netlify CMS boilerplate.\n\nAuthentic cred hoodie hashtag selfies. Raclette banjo cardigan cred. Kitsch XOXO lomo polaroid. Knausgaard put a bird on it four dollar toast leggings typewriter asymmetrical.",
+  "title": "Minorsoft",
+  "titleTemplate": "page",
+  "welcomeText": "# Hey! 👋 \n\nI'm Jared and this is my corner on the internet. \\\n\\\nYou can follow me on twitter <https://twitter.com/uberkeeg>\n\nI'm learning how Netlify works. I also want to learn tailwind so this is going to be a work in progress.\n\nThoughts so far are that Ghost is still a nice setup. But if you want to be able to host your own little blog without paying. This has been an okay experience. ",
   "logo": "/images/uploads/logo.svg",
   "icon": "/images/uploads/logo.png",
   "loadingColor": "#0b3765",
-  "seoDescription": "A quickstart for Nuxt & Netlify CMS",
+  "seoDescription": "",
   "seoMetaImage": ""
 }
