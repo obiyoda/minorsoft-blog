@@ -1,22 +1,24 @@
+# build output
+dist/
+# generated types
+.astro/
+
 # dependencies
-node_modules
+node_modules/
 
 # logs
-npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Nuxt build
-.nuxt
 
-# Nuxt generate
-dist
+# environment variables
+.env
+.env.production
 
-# Ignore generated service workers
-app/static/sw.js
-app/static/workbox-sw.prod*
-
-# yarn
-yarn-error.log
-
-# Jest Coverage
-coverage
+# macOS-specific files
 .DS_Store
+
+# jetbrains setting folder
+.idea/

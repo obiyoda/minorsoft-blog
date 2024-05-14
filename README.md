@@ -1,61 +1,68 @@
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gomah/bluise)
+# Astro Starter Kit: Blog
 
-# Bluise - A Nuxt.js & Netlify CMS boilerplate.
-
-I wanted to explore Netlify CMS & Tailwind CSS, ended up creating this boilerplate.
-
-So far we've got:
-
-- Blog w/ posts, including pagination.
-- Configurable manifest & global settings.
-- CSS Markdown (Thanks to [https://github.com/iandinwoodie/github-markdown-tailwindcss/blob/master/markdown.css]).
-- Dynamic pages.
-- PWA ready.
-- SEO ready for posts & pages.
-- Signup form (using Netlify Forms).
-- Tools (Commitlint, Husky).
-- Typescript.
-
-Few things I'd like to add in the future:
-
-- Contact form under \_slug.
-- Dynamic sections/widgets.
-- Responsive CSS markdown.
-- Tests
-
-## Quickstart
-
-### Prerequisites
-
-- [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-tab)
-- [Node.js](https://nodejs.org/en/)
-
-```bash
-# ensure you have the prerequisites
-# install
-brew install node && brew install yarn
-
-# OR update
-brew update && brew upgrade && brew install yarn
-
-# install dependencies
-yarn install
-
-# serve with hot reload at localhost:3000
-yarn dev
-
-# build for production with minification
-yarn generate
-
-# run all tests
-yarn test
+```sh
+npm create astro@latest -- --template blog
 ```
 
-### Using Netlify CMS
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
 
-1. Deploy to Netlify.
-2. Enable Identity under Settings.
-3. Configure registration preferences & external providers if needed.
-4. Enable Git Gateway.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-_Note: You'll need to specify the Netlify URL when browsing the admin page locally._
+![blog](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
+
+Features:
+
+- ✅ Minimal styling (make it your own!)
+- ✅ 100/100 Lighthouse performance
+- ✅ SEO-friendly with canonical URLs and OpenGraph data
+- ✅ Sitemap support
+- ✅ RSS Feed support
+- ✅ Markdown & MDX support
+
+## 🚀 Project Structure
+
+Inside of your Astro project, you'll see the following folders and files:
+
+```text
+├── public/
+├── src/
+│   ├── components/
+│   ├── content/
+│   ├── layouts/
+│   └── pages/
+├── astro.config.mjs
+├── README.md
+├── package.json
+└── tsconfig.json
+```
+
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+
+The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+
+Any static assets, like images, can be placed in the `public/` directory.
+
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Credit
+
+This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
