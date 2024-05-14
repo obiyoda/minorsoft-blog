@@ -1,0 +1,41 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+    <h1>🧑‍🚀 Hello, and welcome!</h1>
+    <p>
+        I'm a software engineer focusing primarily on frontend development. I'm passionate about building useful things and solving problems. I also enjoy exploring strategy and business, analyzing how successful teams and companies improve lives.
+    </p>
+    <p>
+        Beyond my professional interests, I'm an avid reader, coffee enthusiast, and aspiring entrepreneur. I love diving into new technologies and finding creative solutions to everyday challenges.
+    </p>
+    <p>
+        Join me on this journey as I document the software I build, share my thoughts on business, and delve into the intersection of technology and strategy.
+    </p>
+    <p>
+        On this blog, you can expect:
+        <ul>
+            <li>In-depth tutorials and guides on frontend development</li>
+            <li>Insights and analyses on business strategies</li>
+            <li>Personal reflections and experiences in the tech world</li>
+        </ul>
+    </p>
+    <p>
+        Stay connected by subscribing to my newsletter or following me on social media. Let's build something amazing together!
+    </p>
+</main>
+
+		<Footer />
+	</body>
+</html>
